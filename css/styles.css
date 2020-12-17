@@ -1,0 +1,244 @@
+body{
+}
+
+                                    /* title */
+
+.navbar{
+    padding-left: 6% !important;
+    padding-right: 6% !important;
+    background-color: #146447;
+}
+
+.navbar-brand , .navbar-brand:hover{
+    color: black;
+    font-family: sans-serif ;
+    font-weight: 900;
+}
+
+.nav-link{
+    color: white !important ;
+}
+                        
+
+                                /* TITLE-BOX */
+
+
+.title-row{
+    background-color: #3dae84;
+    color: white;
+    padding: 3% 7%;
+}
+
+.title-heading{
+    margin-bottom: 0px;
+}
+
+.title-text{
+    line-height: 1.5rem;
+    font-size: larger;
+}
+
+@media (max-width:1112px){
+    .title-row{
+        text-align: center;
+    }
+}
+
+
+                                            /* SKILLS */
+
+.skills-row{
+    margin-bottom: 24px;
+}
+                            
+.skills-heading{
+text-align: center;
+margin-top: 20px;
+}
+
+.skills-cards{
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.card-heading{
+    text-align: center;
+    font-size:x-large;
+}
+
+.card-icon{
+    color:#3dae84;
+}
+
+        /* WORK EXPERIENCE */
+
+.experience-row{
+    margin-bottom: 24px;
+}
+ 
+.experience-heading{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.experience-media{
+padding-left: 7% !important;
+padding-right: 7%;
+}
+
+.company-logo{
+    width: 65px;
+}
+
+
+
+        /* PROJECT */
+
+
+
+        .project-row{
+            margin-bottom: 30px;
+        }
+        
+
+        .project-col{
+            text-align: center;
+            margin-top: 20px;
+            }
+        
+        .project-cards{
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+
+.projectcard-heading{
+        text-align: center;
+        font-size:x-large;
+    }
+
+.portfolio-card{
+    padding-top: 5px !important;
+}
+
+.portfoliocard-icon{
+    margin-bottom: 0px !important;
+}
+
+
+    .image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #3dae84;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+  opacity: 0.8;
+}
+
+.card-overlay:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+          
+.text a , .text a:hover {
+color: black;
+font-size: 30px;
+font-weight: bold;
+}
+
+
+
+
+    /* Profile */
+
+.profile-main{
+    text-align: center;
+    font-weight: bold;
+}
+
+.profile-heading{
+    margin-bottom: 28px;
+}
+
+.profile-row{
+background-color: #3dae84;
+margin-left: 7% !important;
+margin-right: 7% !important;
+padding-left: 5%;
+padding-right: 5%;
+color: white;
+border-radius: 15%;
+}
+
+.profilecontents-heading{
+    margin-top: 4px;
+    margin-bottom: 16px;
+}
+
+.profilecontents-div{
+height: fit-content;
+width: fit-content;
+margin-left: auto;
+margin-right: auto;   
+font-size: 13px;
+line-height: 2px;
+}
+
+
+.interests-div{
+    height: fit-content;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;   
+    line-height: 1rem;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+
+@media only screen and (max-width: 1006px){
+    .profile-media{
+        text-align: center;
+    }
+}
+
+
+
+
+/* FOOTER */
+
+.footer-box{
+    padding: 15px 15%;
+    text-align: center;
+
+}
+
+.footer-box a{
+    color: #3dae84;
+  
+}
+
+.footer-box a:hover{
+    color: black;
+}
